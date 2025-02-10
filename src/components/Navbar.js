@@ -14,7 +14,7 @@ import {Button} from "@/components/ui/button"
 import Link from 'next/link'
 
 export default function MenuAppBar() {
-    const [auth, setAuth] = React.useState(false);
+    const [auth, setAuth] = React.useState(true);
     const [anchorEl, setAnchorEl] = React.useState(null);
 
     const handleChange = (event) => {
